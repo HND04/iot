@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 ]
 
 
-ASGI_APPLICATION = 'pro1.asgi.application'
+ASGI_APPLICATION = 'pros.asgi.application'
 
 CHANNEL_LAYERS = {
     'default': {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pro1.wsgi.application'
+WSGI_APPLICATION = 'pros.wsgi.application'
 
 
 # Database
